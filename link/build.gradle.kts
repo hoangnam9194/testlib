@@ -57,13 +57,15 @@ afterEvaluate {
             register<MavenPublication>("release") {
                 from(components["release"])
 
-//                groupId = "com.github.yourusername"
-//                artifactId = "library-name"
-//                version = "1.0.0"
+//                groupId = "com.github.hoangnam9194"
+//                artifactId = "testlib"
+//                version = "1.0.3"
 
-                groupId = "com.github.hoangnam9194"
-                artifactId = "testlib"
-                version = "1.0.2"
+                // Set custom groupId, artifactId, and version
+                groupId = "com.nhn.library"  // e.g., "com.github.yourusername"
+                artifactId = "awesome-library"       // e.g., "custom-widget"
+                version = "1.0.3"
+
             }
         }
     }

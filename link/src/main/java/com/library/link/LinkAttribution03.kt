@@ -1,6 +1,6 @@
 package com.library.link
 
-class LinkAttribution02 {
+class LinkAttribution03 {
     companion object{
         fun test() {
 
