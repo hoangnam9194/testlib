@@ -63,7 +63,7 @@ afterEvaluate {
 
                 groupId = "com.github.hoangnam9194"
                 artifactId = "test-lib01"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
