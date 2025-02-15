@@ -62,8 +62,8 @@ afterEvaluate {
 //                version = "1.0.0"
 
                 groupId = "com.github.hoangnam9194"
-                artifactId = "test-lib01"
-                version = "1.0.1"
+                artifactId = "testlib"
+                version = "1.0.2"
             }
         }
     }
