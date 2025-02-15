@@ -16,6 +16,7 @@ import com.nhn.testlib.ui.theme.TestlibTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
         setContent {
             TestlibTheme {
