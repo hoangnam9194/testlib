@@ -64,8 +64,28 @@ afterEvaluate {
                 // Set custom groupId, artifactId, and version
                 groupId = "com.nhn.library"  // e.g., "com.github.yourusername"
                 artifactId = "awesome-library"       // e.g., "custom-widget"
-                version = "1.0.3"
+                version = "1.0.4"
 
+                pom {
+                    name.set("Your Library Name")
+                    description.set("A description of your library")
+                    url.set("https://github.com/hoangnam9194/testlib")
+
+                    licenses {
+                        license {
+                            name.set("The Apache License, Version 2.0")
+                            url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                        }
+                    }
+
+                    developers {
+                        developer {
+                            id.set("hoangnam9194")
+                            name.set("Nam Nguyen")
+                            email.set("hoangnam9194@gmail.com")
+                        }
+                    }
+                }
             }
         }
     }
